@@ -1,18 +1,43 @@
+body{
+    background-color: #000;
+    border: 1px solid #ff0000;
+}
+
 nav{
     background-color : #000;
-    display: inline;
+    display: inline-block;
     color: fff;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
 }
 
 main{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #0000ff;
-}
-
-body{
-    background-color: #000;
-    border: 1px solid #ff0000;
 }
 
 #dream{
